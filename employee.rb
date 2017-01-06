@@ -1,5 +1,3 @@
-#require './.rb'
-
 class Employee
   def initialize(name:, salary:, email:, phone:, review:, satisfactory:)
     @name = name
@@ -34,9 +32,15 @@ class Employee
     @satisfactory
   end
 
+  def add_review(review)
+    @review = review
+  end
+
+  def is_satisfactory(boolean)
+    @satisfactory = boolean
+  end
+
   def give_raise(raise_amt)
     @salary += raise_amt
   end
-
-
 end
