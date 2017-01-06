@@ -22,6 +22,9 @@ p employee_a.salary
 #get department name
 p department.name
 
+#get department salary
+p department.total_salary
+
 # #add reviews/ratings to employees
 # employee_a.add_review('Alice entered her position only a month ago, but she is doing wonderfully. She takes initiative and has instituted a new program that has helped our department.')
 # employee_a.is_satisfactory('Y')
@@ -33,7 +36,7 @@ p department.name
 # #print various employee and department info
 # p employee_a.review
 # p department.employees.count
-# p department.total_salary
+
 #
 # #give an employee a raise
 # employee_a.give_raise(1000)
