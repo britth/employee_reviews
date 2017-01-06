@@ -35,7 +35,7 @@ employee_a.is_satisfactory('Y')
 employee_b.is_satisfactory('Y')
 employee_c.is_satisfactory('N')
 
-# #give an employee a raise
+#give an employee a raise
 employee_a.give_raise(1000)
 p employee_a.salary
 
