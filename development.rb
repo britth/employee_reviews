@@ -8,14 +8,14 @@ employee_a = Employee.new(name: 'Alice', salary: 50000, email: 'alice@a.com', ph
 employee_b = Employee.new(name: 'Barry', salary: 75500, email: 'barry@a.com', phone: '555-5555', review: '', satisfactory: '')
 employee_c = Employee.new(name: 'Carl', salary: 55000, email: 'carl@a.com', phone: '555-5555', review: '', satisfactory: '')
 
+#add employees to department
+department.add_employee(employee_a)
+department.add_employee(employee_b)
+department.add_employee(employee_c)
+
 #print names
 # p department.name
 # p employee_a.name
-#
-# #add employees to department
-# department.add_employee(employee_a)
-# department.add_employee(employee_b)
-# department.add_employee(employee_c)
 #
 # #add reviews/ratings to employees
 # employee_a.add_review('Alice entered her position only a month ago, but she is doing wonderfully. She takes initiative and has instituted a new program that has helped our department.')
