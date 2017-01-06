@@ -35,15 +35,10 @@ employee_a.is_satisfactory('Y')
 employee_b.is_satisfactory('Y')
 employee_c.is_satisfactory('N')
 
-# #print various employee and department info
-# p employee_a.review
-# p department.employees.count
-
-#
 # #give an employee a raise
-# employee_a.give_raise(1000)
-# p employee_a.salary
-#
+employee_a.give_raise(1000)
+p employee_a.salary
+
 # #give employees in a department a raise
 # department.dept_raise(500)
 #
