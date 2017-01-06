@@ -39,9 +39,7 @@ employee_c.is_satisfactory('N')
 employee_a.give_raise(1000)
 p employee_a.salary
 
-# #give employees in a department a raise
-# department.dept_raise(500)
-#
-# #check employee and department salaries after raises
-# p employee_a.salary
-# p department.total_salary
+#give employees in a department a raise
+department.dept_raise(500)
+p employee_a.salary
+p department.total_salary
