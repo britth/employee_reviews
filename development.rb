@@ -4,9 +4,9 @@ require './department.rb'
 department = Department.new(name:'Human Resources')
 
 #create employees
-# employee_a = Employee.new(name: 'Alice', salary: 50000, email: 'alice@a.com', phone: '555-5555', review: '', satisfactory: '')
-# employee_b = Employee.new(name: 'Barry', salary: 75500, email: 'barry@a.com', phone: '555-5555', review: '', satisfactory: '')
-# employee_c = Employee.new(name: 'Carl', salary: 55000, email: 'carl@a.com', phone: '555-5555', review: '', satisfactory: '')
+employee_a = Employee.new(name: 'Alice', salary: 50000, email: 'alice@a.com', phone: '555-5555', review: '', satisfactory: '')
+employee_b = Employee.new(name: 'Barry', salary: 75500, email: 'barry@a.com', phone: '555-5555', review: '', satisfactory: '')
+employee_c = Employee.new(name: 'Carl', salary: 55000, email: 'carl@a.com', phone: '555-5555', review: '', satisfactory: '')
 
 #print names
 # p department.name
