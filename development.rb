@@ -16,8 +16,8 @@ department.add_employee(employee_c)
 #get employee's name
 p employee_a.name
 
-# #get employee's salary
-# p employee_a.salary
+#get employee's salary
+p employee_a.salary
 #
 # #get department name
 # p department.name
