@@ -31,10 +31,10 @@ employee_b.add_review('Barry is one of our first employees and he is still comin
 employee_c.add_review('Carl has been struggling lately with the institution of our new program. He never gets to work on time and does not get his work done. He has been late on his last three assignments.')
 
 #mark whether employees are satisfactory
-# employee_a.is_satisfactory('Y')
-# employee_b.is_satisfactory('Y')
-# employee_c.is_satisfactory('N')
-#
+employee_a.is_satisfactory('Y')
+employee_b.is_satisfactory('Y')
+employee_c.is_satisfactory('N')
+
 # #print various employee and department info
 # p employee_a.review
 # p department.employees.count
