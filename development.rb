@@ -25,12 +25,14 @@ p department.name
 #get department salary
 p department.total_salary
 
-# #add reviews/ratings to employees
-# employee_a.add_review('Alice entered her position only a month ago, but she is doing wonderfully. She takes initiative and has instituted a new program that has helped our department.')
+#add reviews to employees
+employee_a.add_review('Alice entered her position only a month ago, but she is doing wonderfully. She takes initiative and has instituted a new program that has helped our department.')
+employee_b.add_review('Barry is one of our first employees and he is still coming up with amazing new ideas. Every one of his colleagues loves working with him and he always get\'s the job done.')
+employee_c.add_review('Carl has been struggling lately with the institution of our new program. He never gets to work on time and does not get his work done. He has been late on his last three assignments.')
+
+#mark whether employees are satisfactory
 # employee_a.is_satisfactory('Y')
-# employee_b.add_review('Barry is one of our first employees and he is still coming up with amazing new ideas. Every one of his colleagues loves working with him and he always get\'s the job done.')
 # employee_b.is_satisfactory('Y')
-# employee_c.add_review('Carl has been struggling lately with the institution of our new program. He never gets to work on time and does not get his work done. He has been late on his last three assignments.')
 # employee_c.is_satisfactory('N')
 #
 # #print various employee and department info
